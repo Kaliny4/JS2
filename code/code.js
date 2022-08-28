@@ -46,14 +46,17 @@ for(let i = 0; i < 30; i++){
                 */
 let n = 5;
 let num = parseInt(prompt("Enter the number", ""));
-
-for (let i = 0; i <= num; i + 5) {
-    if (i % n == 0) {
+if (Number.isInteger(num) && num % n === 0) {
+for (let i = 0; i <=num; i % n === 0) {
     console.log(i);}
+}
     else {
-        console.log("Sorry, no numbers");
+        console.log("sorry");
+    
     }
-    }
+
+
+
 
     
 
