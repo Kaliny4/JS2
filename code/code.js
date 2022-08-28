@@ -1,4 +1,4 @@
-for(let i = 0; i < 30; ++i){
+/*for(let i = 0; i < 30; ++i){
     if (i === 0 || i ===29) {    
         for (let j = 0; j < 29; ++j) {
             document.write("*");
@@ -43,4 +43,22 @@ for(let i = 0; i < 30; i++){
                 }
                  document.write("<br>")  
                 }
+                */
+let n = 5;
+let num = parseInt(prompt("Enter the number", ""));
+
+for (let i = 0; i <= num; i + 5) {
+    if (i % n == 0) {
+    console.log(i);}
+    else {
+        console.log("Sorry, no numbers");
+    }
+    }
+
     
+
+    
+
+                
+  
+  
